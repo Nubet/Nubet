@@ -2,7 +2,7 @@
 
 <h1 align="center">Witaj na moim profilu <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 
-<h3 align="center">Mam 15 lat i moją pasją jest programowanie</h3>
+<h3 align="center">Szkaluje papieża</h3>
 
 
 ## 🙋‍♂️ O Mnie
