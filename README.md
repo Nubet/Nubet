@@ -2,7 +2,7 @@
 
 <h1 align="center">Witaj na moim profilu <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 
-<h3 align="center">Szkaluje papieża</h3>
+<h3 align="center">Szkaluje papieża i mam dużo prywatnych repo XD</h3>
 
 
 ## 🙋‍♂️ O Mnie
@@ -45,7 +45,6 @@
 <br/>
 <br/>
 
-## ❤ Views and Followers
 <a href="https://github.com/Meghna-DAS/github-profile-views-counter">
     <img src="https://komarev.com/ghpvc/?username=Nubet">
 </a>
