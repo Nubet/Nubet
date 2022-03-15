@@ -8,7 +8,7 @@
 ## 🙋‍♂️ O Mnie
 
 
-- 📫 Kontakt **gmawko@gmail.com**
+- 📫 Kontakt **nubet2137@gmail.com**
 
 ## 🚀 Języki które znam:
 
