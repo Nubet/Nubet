@@ -98,75 +98,81 @@ int main() {
 	setlocale(LC_CTYPE, "Polish");
 	string imie, nazwisko;
 	int wybor;
-	cout << "Ktore zadanie chcesz wykonac: ";
-	cin>>wybor;
 	
-	switch(wybor){
-		case 1:
-			zad1();
-			break;
-		case 2:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			zad2(imie);
-			break;
-		case 3:
-			cout << "Podaj nazwisko: ";
-			cin>>nazwisko;
-			zad3(nazwisko);
-			break;
-		case 4:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			zad4(imie);
-			break;
-		case 5:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			cout << "Podaj nazwisko: ";
-			cin>>nazwisko;
-			zad5(imie, nazwisko);
-			break;
-		case 6:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			cout << "Podaj nazwisko: ";
-			cin>>nazwisko;
-			zad6(imie, nazwisko);
-			break;
-		case 7:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			cout << "Podaj nazwisko: ";
-			cin>>nazwisko;
-			zad7(imie, nazwisko);
-			break;
-		case 8:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			zad8(imie);
-			break;
-		case 9:
-			cout << "Podaj imie: ";
-			cin>>imie;
-			cout << "Podaj nazwisko: ";
-			cin>>nazwisko;
-			cout << "========================================" << endl;
-			zad2(imie);
-			zad3(nazwisko);
-			zad7(imie, nazwisko);
-			zad8(imie);
-			break;
-		case 10:
-			zad10();
-			break;
-		case 11:
-			zad11();
-			break;
-		default:
-			cout << "Wprowadziles bledne dane! " << endl;
-			break;
-		}
+	while(true)
+	{
+			cout << "Ktore zadanie chcesz wykonac: ";
+			cin>>wybor;
+			
+			switch(wybor){
+				case 1:
+					zad1();
+					break;
+				case 2:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					zad2(imie);
+					break;
+				case 3:
+					cout << "Podaj nazwisko: ";
+					cin>>nazwisko;
+					zad3(nazwisko);
+					break;
+				case 4:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					zad4(imie);
+					break;
+				case 5:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					cout << "Podaj nazwisko: ";
+					cin>>nazwisko;
+					zad5(imie, nazwisko);
+					break;
+				case 6:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					cout << "Podaj nazwisko: ";
+					cin>>nazwisko;
+					zad6(imie, nazwisko);
+					break;
+				case 7:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					cout << "Podaj nazwisko: ";
+					cin>>nazwisko;
+					zad7(imie, nazwisko);
+					break;
+				case 8:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					zad8(imie);
+					break;
+				case 9:
+					cout << "Podaj imie: ";
+					cin>>imie;
+					cout << "Podaj nazwisko: ";
+					cin>>nazwisko;
+					cout << "========================================" << endl;
+					zad2(imie);
+					zad3(nazwisko);
+					zad7(imie, nazwisko);
+					zad8(imie);
+					cout << "========================================" << endl;
+					break;
+				case 10:
+					zad10();
+					break;
+				case 11:
+					zad11();
+					break;
+				default:
+					cout << "Wprowadziles bledne dane! " << endl;
+					break;
+				}
+	}
+
 	
 	
 }
