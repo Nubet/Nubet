@@ -5,174 +5,200 @@
 
 using namespace std;
 
-void zad1(){
-	cout << "Autorem programu jest Norbert Fila " << endl;
-} 
-void zad2(string imie){
-	cout << "Podane imie: " << imie << endl;
-} 
-void zad3(string nazwisko){
-	cout << "Podane nazwisko: " << nazwisko << endl;
+string dane;
+
+void zad1(string imie_autora){
+	cout << "Autorem programu jest: " << imie_autora << endl;
 }
-int zad4(string imie){
-	int dl_imienia = imie.length();
-	string imie_autora = "Norbert";
-	for(int i=0; i<dl_imienia-1; i++)
-		if(tolower(imie[i]) != tolower(imie_autora[i]))
-			{
-				cout << "Imiona sa rozne! " << endl;
-				return 0;
-			}
-	cout << "Imiona sa identyczne! " << endl;
+void zad2(string imie){
+	cout << "Twoje imie to: " << imie << endl;
+}
+void zad3(string nazwisko){
+	cout << "Twoje nazwisko to: " << nazwisko << endl;
+}
+bool zad4(string imie, string imie_autora){
+	
+	bool identyczne = false;
+	int dl_imie = imie.length();
+	int dl_imie_autora = imie_autora.length();
+	
+	if (dl_imie != dl_imie_autora)
+		for(int i =0; i < dl_imie; i++)
+			if(tolower(imie[i]) != tolower(imie_autora[i]))
+				return identyczne = false;
+			
+			
+	return identyczne = true;
+	
 }
 void zad5(string imie, string nazwisko){
-	int dl_imienia = imie.length();
-	int dl_nazwiska = nazwisko.length();
 	
-	cout << "Imie sklada sie z: " << dl_imienia << " liter" << endl;
-	cout << "Naziwsko sklada sie z: " << dl_nazwiska << " liter" << endl;
+	int dl_imie = imie.length();
+	int dl_nazwisko = nazwisko.length();
+	cout << "Dlugosc imienia: " << imie.length() << endl;
+	cout << "Dlugosc nazwiska: " << nazwisko.length() << endl;
+	
 }
 void zad6(string imie, string nazwisko){
-	string dane = imie + " " + nazwisko;
-	cout << "Imie i nazwisko: " << dane << endl;
+	
+	dane = imie + " " + nazwisko;
+	cout << "Dane: " << dane << endl;
+	
 }
 void zad7(string imie, string nazwisko){
 	char inicjaly[2];
-	inicjaly[0] = toupper(imie[0]);
-	inicjaly[1] = toupper(nazwisko[0]);
-	cout << "Inicjaly twojego imienia: " << inicjaly[0] << "." << inicjaly[1] << endl;
+	inicjaly[0] = imie[0];
+	inicjaly[1] = nazwisko[0];
+	cout << "Twoje inicjaly: " << inicjaly[0] << "." << inicjaly[1] << endl;
 }
 void zad8(string imie){
-	bool plec = false; // false - mezczyzna, true - kobieta
-	if(tolower(imie[imie.length()-1]) == 'a')
-		plec = true;
+	bool plec = false; // mezczyzna
+	if (tolower(imie[imie.length()-1]) == 'a')
+		plec = true; // kobieta
 	else 
 		plec = false;
-		
-	if(plec) // if plec == true	
-		cout << "Podane imie jest imieniem damskim!" << endl;
+	
+	if(plec)
+    	cout << imie << " to damskie imie!" << endl;
 	else 
-		cout << "Podane imie jest imieniem meskim!" << endl;
-		
+
+		cout << imie << " to meskie imie!" << endl;
+	
 }
 void zad10(){
-	string wyraz,szukane_dane;
+
+	string szukany_wyraz;
+	cout << "Podaj szukany znak/wyraz: ";
+	cin>>szukany_wyraz;
 	
-	cout << "Podaj wyraz: ";
-	cin.ignore();
-	getline(cin, wyraz);
-	cout << "Podaj wyraz ktory mam szukac: ";
-	cin>>szukane_dane;
-	int dl1 = wyraz.length();
-	int dl2 = szukane_dane.length();
+	int dl1 = dane.length();
+	int dl2 =  szukany_wyraz.length();
 	int ile = 0;
-	for(int i = 0; i < dl1-dl2;  i++)
+	
+	for(int i=0; i<dl1-dl2+1; i++)
 	{
-		int j;
+		int j=0;
 		for(j = 0; j < dl2; j++)
-			if(tolower(wyraz[i+j]) != tolower(szukane_dane[j]))
+			if(toupper(dane[i+j]) != toupper(szukany_wyraz[j]))
 				break;
-			if(j == dl2)
-				ile++;
+		
+		
+		if (j == dl2)
+			ile++;
+			
 	}
-	cout << "W wyrazie |" << wyraz << "| " << ile << " razy wystepuje " << szukane_dane << endl;
+	cout << "Szukany wzorzec: " << szukany_wyraz << " wystepuje " << ile << " razy! " << "w zmiennej Dane: " << dane <<  endl;
+	
 }
 void zad11(){
-	int ilosc_znakow = 0;
-	string napis;
-	char litera;
+	char szukany_znak;
+	string wyraz;
 	
-	cout << "Wprowadz zdanie ";
+	cout << "Podaj zdanie w ktorym bede szukac znakow: ";
 	cin.ignore();
-	getline(cin, napis);
-	cout << "Jakiego znaku chcesz szukac: ";
-	cin>>litera;
-		for(int i = 0; i <= napis.length()-1; i++){
-			if(tolower(napis[i]) == tolower(litera)){
-				ilosc_znakow++;
-			}
-	    }
-	cout << "W podanym wyrazie: " << napis << " program znalazl " << ilosc_znakow << " literek " << litera << endl;
+	getline(cin, wyraz);
+	cout << "Podaj znak ktory mam szukac: ";
+	cin>>szukany_znak;
+	
+	int ile=0;
+	for(int i=0; i<wyraz.length(); i++){
+			if(toupper(wyraz[i]) == toupper(szukany_znak))
+				ile++;
+	}
+	cout << "Znak: " << szukany_znak << " w podanym zdaniu |" << wyraz << "|" << " wystepuje " << ile << " razy! " << endl;
+	
+	
 }
-int main() {
+int main(){
 	setlocale(LC_CTYPE, "Polish");
 	string imie, nazwisko;
-	int wybor;
+	string imie_autora = "Norbert";
+	int zadanie;
 	
 	while(true)
 	{
-			cout << "Ktore zadanie chcesz wykonac: ";
-			cin>>wybor;
+		cout << "Podaj numer zadania ktore chcesz wykonac [1-11]: ";
+		cin>>zadanie;
+		switch(zadanie)
+		{
+			case 1:
+				zad1(imie_autora);
+				break;
+			case 2:
+				cout << "Podaj imie: ";
+				cin>>imie;
+				zad2(imie);
+				break;
+			case 3:
+				cout << "Podaj Nazwisko: ";
+				cin>>nazwisko;
+				zad3(nazwisko);
+				break;
+			case 4:
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				if(zad4(imie, imie_autora))
+					cout << "Imiona identyczne! " << endl;
+				else 
+					cout << "Imiona sa rozne " << endl;
 			
-			switch(wybor){
-				case 1:
-					zad1();
-					break;
-				case 2:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					zad2(imie);
-					break;
-				case 3:
-					cout << "Podaj nazwisko: ";
-					cin>>nazwisko;
-					zad3(nazwisko);
-					break;
-				case 4:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					zad4(imie);
-					break;
-				case 5:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					cout << "Podaj nazwisko: ";
-					cin>>nazwisko;
-					zad5(imie, nazwisko);
-					break;
-				case 6:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					cout << "Podaj nazwisko: ";
-					cin>>nazwisko;
-					zad6(imie, nazwisko);
-					break;
-				case 7:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					cout << "Podaj nazwisko: ";
-					cin>>nazwisko;
-					zad7(imie, nazwisko);
-					break;
-				case 8:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					zad8(imie);
-					break;
-				case 9:
-					cout << "Podaj imie: ";
-					cin>>imie;
-					cout << "Podaj nazwisko: ";
-					cin>>nazwisko;
-					cout << "========================================" << endl;
-					zad2(imie);
-					zad3(nazwisko);
-					zad7(imie, nazwisko);
-					zad8(imie);
-					cout << "========================================" << endl;
-					break;
-				case 10:
-					zad10();
-					break;
-				case 11:
-					zad11();
-					break;
-				default:
-					cout << "Wprowadziles bledne dane! " << endl;
-					break;
-				}
+				break;
+				
+			case 5:
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				cout << "Podaj Nazwisko: ";
+				cin>>nazwisko;
+				zad5(imie, nazwisko);
+				break;
+			case 6:
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				cout << "Podaj Nazwisko: ";
+				cin>>nazwisko;
+				zad6(imie, nazwisko);
+				break;
+			case 7:
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				cout << "Podaj Nazwisko: ";
+				cin>>nazwisko;
+				zad7(imie, nazwisko);
+				break;
+			case 8:
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				zad8(imie);
+				break;
+			case 9:
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				cout << "Podaj Nazwisko: ";
+				cout << "========================================" << endl;
+				cin>>nazwisko;
+				zad2(imie);
+				zad3(nazwisko);
+				zad7(imie, nazwisko);
+				zad8(imie);
+				cout << "========================================" << endl;
+				break;
+			case 10:
+				//Zmienianie wartosci zmiennej Dane
+				cout << "Podaj Imie: ";
+				cin>>imie;
+				cout << "Podaj Nazwisko: ";
+				cin>>nazwisko;
+				zad6(imie, nazwisko);
+				//
+				zad10();
+				break;
+			case 11:
+				zad11();
+				break;
+			default:
+				cout << "Bledne dane! " <<endl;
+				break;
+		}
 	}
-
-	
 	
 }
