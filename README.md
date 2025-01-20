@@ -1,8 +1,8 @@
 
 
-<h1 align="center">Witaj na moim profilu <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
+<h1 align="center">Siema mordo<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 
-<h3 align="center">Szkaluje papieża i mam dużo prywatnych repo XD</h3>
+<h3 align="center">Winter arc is coming</h3>
 
 
 ## 🙋‍♂️ O Mnie
