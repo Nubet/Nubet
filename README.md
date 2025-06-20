@@ -1,45 +1,19 @@
+# 💫 About Me:
+🔭 HI! I’m Norbert Second-year Computer Science student pursuing an Engineer’s Degree at Politechnika  Lódzka (English taught
+program)<br>
+🌱 I’m currently learning Springboot!<br>
 
-## 🙋‍♂️ O Mnie
 
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+# 📊 GitHub Stats:
 
-- 📫 Kontakt **nubet2137@gmail.com**
+![](https://nirzak-streak-stats.vercel.app/?user=Nubet&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
-## 🚀 Języki które znam:
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
 
-<p align="left"> 
-    <a href="" target="_blank"> <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/> </a>
-    <a href="" target="_blank"> <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"> </a>
-    <a href="" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> </a>
-    <a href="" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a>
-    <a href="" target="_blank"> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> </a>
-    <a href="" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png"/> </a>
-    
-</p>
+---
+[![](https://visitcount.itsvg.in/api?id=Nubet&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<br/>
-
-<p align="center">
-    <a href="https://github.com/Nubet/github-readme-streak-stats">
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Subham Raoniar's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Nubet&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
-    </a>
-</p>
-
-## 📊 Moje Statystyki
-
-  <br/>
-    <a href="https://github.com/Nubet/github-readme-stats"><img alt="Subham Raoniar's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Nubet&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
-  <a href="https://github.com/Nubet/github-readme-stats"><img alt="Subham Raoniar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
-  <br/>
-
-<br/>
-<br/>
-
-<a href="https://github.com/Nubet/github-readme-activity-graph"><img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Nubet&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
-
-<br/>
-<br/>
-
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=Nubet">
-</a>
-<a href="https://github.com/Nubet?tab=followers"><img src="https://img.shields.io/github/followers/Nubet?label=Followers&style=social" alt="GitHub Badge"></a>
