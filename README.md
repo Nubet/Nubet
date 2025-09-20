@@ -9,8 +9,10 @@ program)<br>
 # 📊 GitHub Stats:
 
 <div>
+  
 ![](https://nirzak-streak-stats.vercel.app/?user=Nubet&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+
 </div>
 ![snake gif](https://github.com/Nubet/Nubet/blob/output/github-snake-dark.svg)
 ---
