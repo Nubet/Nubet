@@ -21,16 +21,11 @@
 
 # 📊 GitHub Stats
 
-<table>
-  <tr>
-    <td>
-      <img src="https://nirzak-streak-stats.vercel.app/?user=Nubet&theme=dark&hide_border=false" alt="GitHub Streak"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=Nubet&theme=dark&hide_border=false" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact" height="150" />
+</p>
+
 ---
 
 <picture>
