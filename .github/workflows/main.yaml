@@ -2,7 +2,7 @@ name: Update profile artwork (Pac-Man + Snake)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # codziennie 00:00 UTC
+    - cron: "0 0 * * *"   #  00:00 UTC
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -19,16 +19,14 @@ jobs:
         uses: actions/checkout@v4
 
       # --- SNAKE ---
-      - name: Generate Snake SVG (light)
-        uses: Platane/snk/svg@v3
+      - name: Generate Snake SVGs
+        uses: Platane/snk@v3
         with:
           github_user_name: Nubet
-          outputs: dist/github-snake.svg
-      - name: Generate Snake SVG (dark)
-        uses: Platane/snk/svg@v3
-        with:
-          github_user_name: Nubet
-          outputs: dist/github-snake-dark.svg
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       # --- PAC-MAN ---
       - name: Generate Pac-Man SVGs
