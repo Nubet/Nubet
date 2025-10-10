@@ -26,7 +26,11 @@
 
 ---
 
-![snake gif](https://github.com/Nubet/Nubet/blob/output/github-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nubet/Nubet/snake/snake.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nubet/Nubet/snake/snake.svg">
+  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/Hantaro171902/Hantaro171902/snake/snake.svg">
+</picture>
 
 ---
 
