@@ -35,7 +35,12 @@
 ---
 
 [![](https://visitcount.itsvg.in/api?id=Nubet&icon=0&color=0)](https://visitcount.itsvg.in)
+```
 
+> "The only way to do great work is to love what you do."  
+> – Steve Jobs
+
+```
 ---
 
 ##
