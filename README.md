@@ -22,8 +22,8 @@
 # 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Nubet&theme=dark&hide_border=false" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nubet&theme=tokyonight&hide_border=false" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=tokyonight&show_icons=true&hide_border=false&layout=compact" height="150" />
 </p>
 
 ---
