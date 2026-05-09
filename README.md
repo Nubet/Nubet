@@ -36,12 +36,10 @@
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nubet&theme=tokyonight&hide_border=false" height="150" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nubet&theme=aura"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nubet&theme=tokyonight&show_icons=true&hide_border=false&layout=compact" height="150" />
-
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nubet&theme=aura"/>
 </p>
-
 ---
 
 <picture>
