@@ -4,7 +4,7 @@
 
 🚀 I build full-stack projects across the entire tech stack: from modern web applications and cross-platform mobile apps to low-level engineering solutions.
 
-🌱 Currently expanding my backend knowledge with **Spring Boot** & working on **"Łódź HEXAlytics"**.
+💼 Hire me: https://norbertfila.com
 
 ---
 
