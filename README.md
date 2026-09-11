@@ -1,6 +1,6 @@
 # 💫 About Me
 
-🔭 Hi! I’m **Norbert**, a second-year Computer Science student pursuing an Engineer’s Degree at **Politechnika Łódzka** (English-taught program).
+🔭 Hi! I’m **Norbert**, a third-year Computer Science student pursuing an Engineer’s Degree at **Politechnika Łódzka** (English-taught program).
 
 🚀 I build full-stack projects across the entire tech stack: from modern web applications and cross-platform mobile apps to low-level engineering solutions.
 
